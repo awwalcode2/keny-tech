@@ -46,10 +46,7 @@ function AllPlatforms() {
 
                     <div className="social-media" id="twitter" onClick={() => goto("https://x.com/kenytech01/status/1756293557453787226?s=46&t=09f7ifCS_BEW4hq61lYMsg")}>
                         <a href="#" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-x"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-  <path d="M..." fill="currentColor"></path>
-</svg>
-</i>
+                            <i className="fab fa-"> <img src={require("./x_loog-removebg-preview.png")} width={"70px"}/> </i>
                             {/* <span style={{fontSize:"30px"}}>X</span> */}
                         </a>
                         <p className="description">Join the community on Facebook and stay updated with the latest tech insights from Keny-Tech. Get exclusive content, updates, and engage with fellow tech enthusiasts!</p>
