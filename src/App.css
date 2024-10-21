@@ -10,6 +10,13 @@ a{
   font-weight: 700;
   text-decoration: none;
 }
+a:hover{
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
 
 .topnavbar {
   background-color: white;
