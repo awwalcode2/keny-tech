@@ -1,0 +1,263 @@
+
+.platforms{
+    font-size: 35px;
+    font-weight: 700;
+    background-color: #000442;
+    /* height: 60px; */
+    padding: 15px 0;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.AllPlatforms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #1b1b1b;
+    height: auto;
+    margin: auto;
+}
+
+
+
+.social-wrapper{
+    height: auto;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px 30px;
+  }
+
+  
+  .social-media {
+    background-color: #333; 
+ 
+    border-radius: 10px;
+    width: 300px; 
+    /* max-width: calc(100% - 20px);  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    cursor: pointer;
+    padding: 15px; 
+    /* flex: 1;  */
+  }
+  
+  @media (max-width: 768px) {
+    .social-media {
+      width: 90%;
+      min-width: 250px; 
+    }
+  }
+  
+  .social-media a {
+    color: #fff; 
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .social-media i {
+    font-size: 50px; 
+    color: #ccc;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media span {
+    margin-top: 10px;
+    font-size: 16px; 
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .social-media .description {
+    margin-top: 10px;
+    font-size: 12px; 
+    color: #bbb;
+    text-align: center;
+    padding: 0 5px; 
+    opacity: 0.8;
+  }
+  
+  .social-media:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  }
+  
+  #facebook:hover i { color: #3b5998; }
+  #twitter:hover i { color: black; }
+  #instagram:hover i { color: #e4405f; }
+  #linkedin:hover i { color: #0077b5; }
+  #tiktok:hover i { color: #e4405ee7; }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .social-media {
+    animation: fadeIn 0.5s ease-in-out both;
+    animation-delay: 0.2s;
+  }
+  
+  .social-image {
+    border-radius: 5px; 
+    margin: 20px 0; 
+    width: 180px; 
+    height: 100px;
+  }
+  
+  .qr-text {
+    margin-top: 10px; 
+    font-size: 12px; 
+    color: #bbb; 
+    text-align: center; 
+    opacity: 0.8; 
+  }
+  
+
+
+
+
+
+
+
+
+/*   
+  
+  .social-media {
+  background-color: #333; 
+  border-radius: 10px;
+  width: 320px; 
+  max-width: calc(100% - 20px); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  cursor: pointer;
+  padding: 15px; 
+  flex: 1; 
+  }
+  
+  
+  @media (max-width: 768px) {
+  .social-media {
+    width: 90%;
+    min-width: 250px; 
+  }
+
+  .social-wrapper{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px 10px; 
+    margin: 0 0 !important;
+  }
+  }
+  
+  
+  .social-media a {
+  color: #fff; 
+  text-decoration: none;
+  text-align: center;
+  }
+  
+  .social-media i {
+  font-size: 50px; 
+  color: #ccc;
+  transition: color 0.3s ease;
+  }
+  
+  
+  .social-media span {
+  margin-top: 10px;
+  font-size: 16px; 
+  font-weight: bold;
+  color: #fff;
+  }
+  
+  .social-media .description {
+  margin-top: 10px;
+  font-size: 12px; 
+  color: #bbb;
+  text-align: center;
+  padding: 0 5px; 
+  opacity: 0.8;
+  }
+  
+  .social-media:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  }
+  
+  .facebook:hover i {
+  color: #3b5998;
+  }
+  
+  .twitter:hover i {
+  color: #1da1f2;
+  }
+  
+  .instagram:hover i {
+  color: #e4405f;
+  }
+  
+  .linkedin:hover i {
+  color: #0077b5;
+  }
+  
+  
+  @keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  }
+  
+  .social-media {
+  animation: fadeIn 0.5s ease-in-out both;
+  animation-delay: 0.2s;
+  }
+  
+  .social-image {
+  border-radius: 5px;
+  margin: 20px 0; 
+  width: 140px; 
+  height: 110px;
+  border: 2px solid red;
+  }
+  
+  
+  .qr-text {
+  margin-top: 10px; 
+  font-size: 12px; 
+  color: #bbb; 
+  text-align: center; 
+  opacity: 0.8; 
+  }
+
+
+
+
+
+   */
